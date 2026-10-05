@@ -3,19 +3,41 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="styles.css">
     <title>Odin Recipes</title>
 </head>
 <body>
-    <h1>Odin Recipes</h1>
-    <ul>
-        <li><a href="recipes/caldo-verde.html" target="_blank">Caldo Verde </a></li>
-        <li><a href="recipes/broa.html" target="_blank">Broa</a></li>
-        <li><a href="recipes/pasteis-de-nata.html" target="_blank">Pasteis de Nata</a></li>
+    <div class="page">
+
+        <div class="hero">
+         <h1 class="main-heading">Odin Recipes</h1>
+        </div>
+    <ul class="cards">
+        <li class="card">
+         <img class="card-img" src="recipes/images/caldo-verde-img.jpg" alt="Caldo Verde">  
+         <h2 class="card-title"><a href="recipes/caldo-verde.html">Caldo Verde</a></h2>
+         <p class="card-text">Creamy potato and kale soup with linguiça.</p>
+         <span class="tag">Soup</span>
+        </li>
+
+        <li class="card">
+            <img class="card-img" src="recipes/images/broa.jpg" alt="Broa">
+            <h2 class="card-title"><a href="recipes/broa.html">Broa</a></h2>
+            <p class="card-text">Traditional Portuguese cornbread.</p>
+            <span class="tag">Bread</span>
+        </li>
+        <li class="card">
+            <img class="card-img" src="recipes/images/pasteis-de-nata.jpg" alt="Pasteis de Nata">
+            <h2 class="card-title"><a href="recipes/pasteis-de-nata.html">Pasteis de Nata</a></h2>
+            <p class="card-text">Traditional Portuguese custard tarts.</p>
+            <span class="tag">Dessert</span>
+        </li>
     </ul>
+
+    <footer class="site-footer">
+        <p>Recipe from <a href="https://www.allrecipes.com/" target="_blank">All Recipes</a></p>
+    </footer>
+
+    </div> 
 </body>
-
-<footer>
-    <p>Recipe from <a href="https://www.allrecipes.com/">All Recipes</a></p>
-</footer>
-
 </html>
