@@ -25,6 +25,16 @@ a {
     padding: 20px;
 }
 
+/* Footer */
+
+.site-footer{
+    margin-top: 32px;
+    padding: 12px;
+    font-size: 14px;
+    text-align: center;
+    border-top: 1px solid #ddd;
+}
+
 /* Homepage */
 
 .hero {
@@ -72,6 +82,7 @@ a {
 .card-title a{
     text-decoration: none;
 }
+
 .card-title a:hover{
     text-decoration: underline;
 }
