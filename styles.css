@@ -102,3 +102,67 @@ a {
     color: #633806;
     background: #faeeda;
 }
+
+/* Recipe Pages */
+
+.site-header{
+    padding: 12px 0;
+    font-size: 14px;
+}
+
+.recipe-title{
+    font-size: 32px;
+    line-height: 1.2;
+    margin: 24px 0 8px;
+}
+
+.recipe-layout{
+    display: flex;
+    gap: 20px;
+    margin-top: 24px;
+}
+
+.recipe-left{
+    flex: 0 0 300px;
+}
+
+.recipe-left img{
+    display: block;
+    width: 100%;
+    border-radius: 12px;
+    margin-bottom: 20px;
+}
+
+.recipe-right{
+    flex: 1;
+}
+
+.section-box{
+    padding: 16px;
+    border: 1px solid #ddd;
+    border-radius: 12px;
+    background: #fff;
+    margin-bottom: 20px;
+}
+
+.section-box h2,.section-box h3{
+    font-size: 20px;
+    margin-bottom: 12px;
+}
+
+.section-box h4{
+    font-size: 16px;
+    margin: 12px 0 6px;
+}
+
+.section-box ul,.section-box ol{
+    padding-left: 20px;
+}
+
+.section-box li{
+    margin-bottom: 8px;
+}
+
+.section-box ol li{
+    margin-bottom: 12px;
+}
